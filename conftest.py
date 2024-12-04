@@ -39,8 +39,8 @@ def page():
     # Initialize Playwright and start it.
     playwright = sync_playwright().start()
     # Launch the Chromium browser, with headless mode set to False (browser UI will be visible).
-    #browser = playwright.chromium.launch()
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch()
+    #browser = playwright.chromium.launch(headless=False)
     # Open a new page (tab) in the browser.
     context = browser.new_context()
     page = context.new_page()
