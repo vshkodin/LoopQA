@@ -44,7 +44,7 @@ jobs:
       - name: Run Playwright Tests
         run: |
           source venv/bin/activate
-          pytest tests/test_login.py --alluredir=allure-results
+          pytest tests/test_ui.py --alluredir=allure-results
 
       - name: Get Allure history
         uses: actions/checkout@v3
