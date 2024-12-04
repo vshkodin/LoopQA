@@ -9,6 +9,7 @@ env:
 jobs:
   test:
     runs-on: ubuntu-latest
+    environment: env
     steps:
       # Checkout the repository
       - name: Checkout Code
