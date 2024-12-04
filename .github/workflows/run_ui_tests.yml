@@ -2,15 +2,13 @@ name: Playwright Tests
 
 on:
   push:
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
 env:
     USERNAME: ${{ secrets.USERNAME }}
     PASSWORD: ${{ secrets.PASSWORD }}
     BASE_URL: ${{ secrets.BASE_URL }}
-
+jobs:
+  test:
+    runs-on: ubuntu-latest
     steps:
       # Checkout the repository
       - name: Checkout Code
