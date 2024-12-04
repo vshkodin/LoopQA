@@ -6,6 +6,10 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+env:
+    USERNAME: ${{ secrets.USERNAME }}
+    PASSWORD: ${{ secrets.PASSWORD }}
+    BASE_URL: ${{ secrets.BASE_URL }}
 
     steps:
       # Checkout the repository
