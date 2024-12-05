@@ -2,6 +2,11 @@ name: Playwright Tests
 
 on:
   push:
+  workflow_dispatch:
+  # uncomment this one if want to run at 6:00 AM and 8:00 PM UTC
+  #schedule:
+  #  - cron: "0 6 * * *"
+  #  - cron: "0 20 * * *"
 env:
     USERNAME: ${{ secrets.USERNAME }}
     PASSWORD: ${{ secrets.PASSWORD }}
