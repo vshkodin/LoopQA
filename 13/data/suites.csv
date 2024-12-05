@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","247","test_dynamic_cases[data4]","tests","Thu Dec 05 14:57:13 GMT 2024","passed","Thu Dec 05 14:57:13 GMT 2024","","test_ui","",""
+"","314","test_dynamic_cases[data0]","tests","Thu Dec 05 14:57:12 GMT 2024","passed","Thu Dec 05 14:57:12 GMT 2024","","test_ui","",""
+"","232","test_dynamic_cases[data5]","tests","Thu Dec 05 14:57:13 GMT 2024","passed","Thu Dec 05 14:57:14 GMT 2024","","test_ui","",""
+"","231","test_dynamic_cases[data2]","tests","Thu Dec 05 14:57:13 GMT 2024","passed","Thu Dec 05 14:57:13 GMT 2024","","test_ui","",""
+"","231","test_dynamic_cases[data1]","tests","Thu Dec 05 14:57:12 GMT 2024","passed","Thu Dec 05 14:57:13 GMT 2024","","test_ui","",""
+"","248","test_dynamic_cases[data3]","tests","Thu Dec 05 14:57:13 GMT 2024","passed","Thu Dec 05 14:57:13 GMT 2024","","test_ui","",""
